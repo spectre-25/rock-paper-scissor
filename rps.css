@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    text-align: center;
+}
+h1{
+    background-color: #023047;
+    color: white;
+    font-size: 5vmin;
+    height: 8vmin;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+img{
+    height: 30vmin;
+    border-radius: 50%;
+}
+.container{
+    height: 60vmin;
+  display: flex;
+  gap: 15vmin;
+  justify-content: center;
+  align-items: center;
+}
+.score{
+    height: 20vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15vmin;
+}
+#player,#comp{
+    font-size: 7vmin;
+}
+p{
+    font-size: 5vmin;
+}
+img:hover{
+    border: 10px solid black;
+}
+#result{
+    display: inline;
+    background-color: #219ebc;
+    padding-right: 5vmin;
+    padding-left: 5vmin;
+    border-radius: 2vmin;
+}
